@@ -4,5 +4,6 @@
 <p align="center">
 How to get Started
 </p>
+
 - Fork the code in the local Repository
 - Run the code ``` npm i ``` in the terminal
