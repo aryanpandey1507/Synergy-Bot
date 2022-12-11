@@ -67,8 +67,8 @@ client.on('message', (message) => {
         message.reply(message.author.displayAvatarURL());
         return
     }
-    if (message.content == "chutiya") {
-        message.channel.send("Gaali mat de MAdarCH*d");
+    if (message.content == "whatsup") {
+        message.channel.send("Welcome , let's see how you build me ..");
         return
     }
 
@@ -76,15 +76,10 @@ client.on('message', (message) => {
         jokes(message);
     }
 
-    
-
-    if (message.content == ".") {
-        message.channel.send("Abe Salle!!!")
-    }
-
+   
 
     if (message.content == "help") {
-        message.channel.send("Commands => joke,Hey,.,rip,avtar");
+        message.channel.send("Commands => joke,Hey,.,rip,avtar,whatsup");
     }
 
 
@@ -95,35 +90,21 @@ client.on('message', (message) => {
         message.channel.send(attachment);
         return
     }
-    if (message.content.startsWith("boobs")) {
-        // Create Attcahment by this
-        const attachment = new discord.MessageAttachment('https://images.unsplash.com/photo-1492632503949-a31d9972b400?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80');
-        //Send the Attachment
-        message.channel.send(attachment);
-        return
-    }
 
     
-    if(message.content == "bsdk"){
-        message.reply('Gaali Mat de MadArChoD!🤬');
-        return;
-    }
     if(message.content == "TURN OFF"){
         message.channel.send('Bye bye , Going to Sleep 😴');
         return;
     }
     
-if(message.author.id == 732221013999222814){
-    message.channel.send('Tum kuch bhi likho, Tum chutiya hi rahoge')
-    return
-}
+
 
     if (message.content == "Hey" || message.content == 'hey') {
         if (message.author.id == 529005449379577866 || message.author.id == 759342924219285566) {
-            message.channel.send(`hello ` + message.author.toString() + " tum mere Malik ho");
+            message.channel.send(`hello ` + message.author.toString() + "Hello Lord !!");
             return
         }
-        message.channel.send(`hello ` + message.author.toString() + " Tum Chutiye ho      ")
+        message.channel.send(`hello ` + message.author.toString() + " I know you are not my lord !! ")
     }
 
     // ---------------------------------------------------------------------------------------------------
